@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio -Ankit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 1. Navbar -->
+        <header class="card nav-bar">
+            <div class="logo">Ankit</div>
+
+            <button class="hamburger" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <div class="nav-menu">
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="mailto:ankitjaiswal3016@gmail.com" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/ankitj30" target="_blank" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ankit-jaiswal1010/" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- 2. About Me (Full-Width Hero) -->
+            <section class="card about-section reveal" id="about">
+                <div class="about-image-wrapper">
+                    <img src="img/ankit_pic.jfif" alt="Ankit Jaiswal" class="profile-img">
+                </div>
+                <div class="about-content">
+                    <h3>About Me</h3>
+                    <p>I’m a third-year Computer Engineering student with hands-on experience in full-stack
+                        development
+                        using the MERN stack and Flutter. I enjoy building scalable, real-world applications and
+                        solving
+                        problems using clean and efficient code.</p>
+                    <p>I have worked with Java, SQL, React, and modern web technologies,
+                        and I
+                        continuously improve my skills through academic projects and self-driven development.</p>
+                </div>
+            </section>
+
+            <!-- Main Layout Grid (2fr 1fr Reset) -->
+            <div class="main-layout">
+                <!-- Left Column: Projects (First Child) -->
+                <section class="card projects-section" id="projects">
+                    <h3>My Projects</h3>
+                    <!-- Project 1 -->
+                    <div class="project-card project-card-portfolio reveal">
+                        <div class="project-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                            Web Dev
+                        </div>
+                        <h4>Personal Portfolio Website</h4>
+                        <p>A responsive portfolio website showcasing my skills, projects, education, and resume.</p>
+                        <div class="project-action">
+                            <button class="icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card project-card-tolksy reveal">
+                        <div class="project-badge">AI / Chatbot</div>
+                        <h4>Talksy Bot</h4>
+                        <p>An AI-powered chatbot application focused on interactive conversations and backend logic.
+                        </p>
+                        <div class="project-action">
+                            <button class="icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card reveal">
+                        <div class="project-badge">Version Control</div>
+                        <h4>Version Control – GitHub Clone</h4>
+                        <p>A project demonstrating core Git and version control workflows.</p>
+                        <div class="project-action">
+                            <button class="icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sidebar Content (Second Child) -->
+                <div class="sidebar">
+                    <!-- 6. Education -->
+                    <section class="card education-section reveal" id="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>G H Raisoni College of Engineering</h4>
+                            <p class="subtitle">B.Tech – Computer Engineering</p>
+                            <p class="details">2024 – 2027 | CGPA: 8.41</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Government Polytechnic Jintur</h4>
+                            <p class="subtitle">Diploma in Computer Engineering</p>
+                            <p class="details">2021 – 2024 | Percentage: 83.09%</p>
+                        </div>
+                    </section>
+
+                    <!-- 3. Skills -->
+                    <section class="card skills-section reveal" id="skills">
+                        <h3>Skills</h3>
+                        <div class="skills-grid">
+                            <span class="chip reveal">Java</span>
+                            <span class="chip reveal">JavaScript</span>
+                            <span class="chip reveal">C++</span>
+                            <span class="chip reveal">React.js</span>
+                            <span class="chip reveal">node.js</span>
+                            <span class="chip reveal">Express.js</span>
+                            <span class="chip reveal">MongoDB</span>
+                            <span class="chip reveal">SQL</span>
+                            <span class="chip reveal">Flutter</span>
+                            <span class="chip reveal">Git</span>
+                        </div>
+                    </section>
+
+                    <!-- 5. Industrial Trainee (Experience) -->
+                    <section class="card experience-section reveal" id="experience">
+                        <h3>Industrial Trainee</h3>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Internship — Sumago Infotech</h4>
+                                <span class="duration">June 2023 – July 2023</span>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Developed end-to-end web modules under senior guidance.</li>
+                                <li>Assisted in building REST APIs and frontend integration.</li>
+                                <li>Worked with databases for CRUD operations.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- 8. Achievements -->
+                    <section class="card achievements-section reveal" id="achievements">
+                        <h3>Achievements</h3>
+                        <ul class="achievements-list">
+                            <li>Participated in Smart India Hackathon.</li>
+                            <li>Secured 1st Prize in Technical Exhibition.</li>
+                        </ul>
+                    </section>
+
+                    <!-- 9. Certificates -->
+                    <section class="card certificates-section reveal" id="certificates">
+                        <h3>Certificates</h3>
+                        <div class="certificate-list">
+                            <div class="certificate-item">
+                                <div class="cert-info">
+                                    <h4>Industrial Trainee Completion</h4>
+                                    <p>Sumago Infotech</p>
+                                </div>
+                                <a href="img/internship_certificate.pdf" target="_blank"
+                                    class="btn-primary-light">View</a>
+                            </div>
+                            <div class="certificate-item">
+                                <div class="cert-info">
+                                    <h4>Technical Exhibition Review</h4>
+                                    <p>Govt Polytechnic</p>
+                                </div>
+                                <a href="img/tech_ex_Certificate.pdf" target="_blank" class="btn-primary-light">View</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Full-Width Bottom Sections -->
+            <div class="footer-layout">
+                <!-- 7. Resume -->
+                <section class="card resume-section reveal" id="resume">
+                    <div class="resume-content">
+                        <h3>Resume</h3>
+                        <div class="resume-box">
+                            <span>Ankit_Jaiswal_Resume.pdf</span>
+                            <a href="img/Ankit_Jaiswal_Resume.pdf" target="_blank" class="btn-primary-light">Open
+                                PDF</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 10. Contact Me -->
+                <section class="card contact-section reveal" id="contact">
+                    <h3>Contact Me</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Mobile</strong>
+                            7276411452
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            ankitjaiswal3016@gmail.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location</strong>
+                            Pune, Maharashtra
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+        <!-- 11. Footer -->
+        <footer class="card footer">
+            <p>&copy; 2026 Ankit Jaiswal. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
